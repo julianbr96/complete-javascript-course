@@ -1,7 +1,7 @@
 /*
 * Variables and Data Types
 */
-
+/*
 var firstName = 'John';
 console.log(firstName);
 
@@ -19,4 +19,23 @@ console.log(job);
 
 // var 3years = 3; throws exception
 
+*/
 
+/*
+* Variables and Data Types
+*/
+
+var firstName = 'John';
+var age = 28;
+
+// Type coercion
+console.log(firstName + ' ' + age);
+
+var job, isMarried;
+job = 'Teacher';
+isMarried = false;
+
+console.log(firstName + ' is a ' + age + ' years old ' 
++ job + '. Is he married? ' + isMarried);
+
+// Variable mutation 
