@@ -1,6 +1,6 @@
 /*
-* Variables and Data Types
-*/
+ * Variables and Data Types
+ */
 /*
 var firstName = 'John';
 console.log(firstName);
@@ -22,8 +22,8 @@ console.log(job);
 */
 
 /*
-* Variables and Data Types
-*/
+ * Variables and Data Types
+ */
 /*
 var firstName = 'John';
 var age = 28;
@@ -50,9 +50,9 @@ console.log(firstName + ' ' + lastName);
 */
 
 /*
-* Basic Operators
-*/
-
+ * Basic Operators
+ */
+/*
 // Math Operators
 var year = 2019;
 var ageJohn = 28;
@@ -72,3 +72,31 @@ console.log(typeof ageJohn);
 console.log(typeof 'this');
 var x;
 console.log(typeof x);
+*/
+
+/*
+ * Operators precedence
+ */
+/*
+var now = 2019;
+var yearJohn = 1989;
+var fullAge = 19;
+
+var isFullAge = now - yearJohn >= fullAge; //true
+console.log(isFullAge);
+
+var ageJohn = now - yearJohn;
+var ageMark = 35;
+var average = (ageJohn + ageMark) / 2;
+
+//multiple assignment
+var x, y;
+x = y = (3 + 5) * 4 - 6;
+console.log(x, y);
+
+// More operators
+x *= 2;
+x++;
+x--;
+console.log(x);
+*/
