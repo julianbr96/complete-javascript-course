@@ -100,3 +100,17 @@ x++;
 x--;
 console.log(x);
 */
+
+/* CODING CHALLENGE
+ *
+ */
+
+var heightMark, heightJohn, massMark, massJohn, bmiJohn, bmiMark;
+heightMark = prompt("Height of Mark: ");
+heightJohn = prompt("Height of John: ");
+massMark = prompt("Mass of Mark: ");
+massJohn = prompt("Mass of John: ");
+bmiJohn = massJohn / heightJohn ** 2;
+bmiMark = massMark / heightMark ** 2;
+var isMarkBmiHigherThanJohn = bmiMark >= bmiJohn;
+console.log("Is Mark's BMI higher than John's ? " + isMarkBmiHigherThanJohn);
