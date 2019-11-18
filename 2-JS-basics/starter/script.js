@@ -104,7 +104,7 @@ console.log(x);
 /* CODING CHALLENGE
  *
  */
-
+/*
 var heightMark, heightJohn, massMark, massJohn, bmiJohn, bmiMark;
 heightMark = prompt("Height of Mark: ");
 heightJohn = prompt("Height of John: ");
@@ -114,3 +114,26 @@ bmiJohn = massJohn / heightJohn ** 2;
 bmiMark = massMark / heightMark ** 2;
 var isMarkBmiHigherThanJohn = bmiMark >= bmiJohn;
 console.log("Is Mark's BMI higher than John's ? " + isMarkBmiHigherThanJohn);
+*/
+
+/* 
+* IF ELSE STATEMENTS
+*/
+/*
+var firstName = 'John';
+var civilStatus = 'single';
+
+if (civilStatus === 'single'){
+    console.log(firstName + ' is single!');
+} else {
+    console.log(firstName + ' is not single');
+}
+
+var isMarried = false;
+if (isMarried){
+    console.log(firstName + ' is not single!');
+} else {
+    console.log(firstName + ' is single');
+}
+*/
+
